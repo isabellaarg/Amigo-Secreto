@@ -1,0 +1,8 @@
+Exemplo Prático:
+Se temos a lista amigos = ["Ana", "Carlos", "Felipe", "Joana", "Lucas"]:
+
+Math.random() gera, por exemplo, 0.753.
+Multiplicando por amigos.length (que é 5), temos 0.753 * 5 = 3.765.
+Math.floor(3.765) vai resultar em 3.
+Então, amigos[3] vai ser "Joana" (o nome do amigo na posição 3 da lista).
+Isso significa que, ao rodar essa linha de código, você está sorteando aleatoriamente um nome da lista de amigos! 😄
